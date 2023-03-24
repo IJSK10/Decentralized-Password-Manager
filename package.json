@@ -6,10 +6,20 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "buffer": "^6.0.3",
+    "cryptico": "^1.0.2",
+    "crypto": "npm:crypto-browserify",
+    "crypto-browserify": "^3.12.0",
+    "eciesjs": "^0.3.16",
+    "ethers": "5.4",
+    "js-sha256": "^0.9.0",
     "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "secp256k1": "^5.0.0",
+    "stream": "npm:stream-browserify@^3.0.0",
+    "web3": "^1.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +44,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.8.1",
+    "web-vitals": "^3.1.1"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   }
 }
